@@ -1,4 +1,4 @@
-import { Calendar, CalendarCheck } from "lucide-react";
+import { CalendarCheck } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,8 +8,8 @@ export default function Home() {
         <div className="relative hero-content text-center mx-4 lg:mx-[15%] py-20">
           <div className="max-w-lg">
             <h1>
-              <div>
-                <CalendarCheck />
+              <div className="bg-secondary p-1 mr-1 rounded-md text-white">
+                <CalendarCheck  />
               </div>
               <span>book<span>It</span></span>
             </h1>
