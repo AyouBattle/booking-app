@@ -9,6 +9,7 @@ export default function Home() {
             <h1 className="text-3x1 md:text-7x1">
               <div className="bg-secondary p-1 mr-1 rounded-md text-white">
                 <CalendarCheck className="w-8 h-8 md:w-16 md:h-16"/>
+                <CalendarCheck className="w-8 h-8 md:w-16 md:h-16"/>
                 <p>test1</p>
               </div>
               <span>book<span>It</span></span>
